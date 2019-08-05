@@ -1,0 +1,234 @@
+
+  * {
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+  }
+
+  html,body {
+
+    padding: 0;
+    margin: 0;
+
+  }
+  .navbar-brand{
+    color:  rgb(255, 145, 0);
+  }
+  select{
+    color:black;
+    width: 50%;
+  }
+
+  /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+  .wrapper {
+    position: relative;
+    min-height: 100%;
+   padding-bottom: 1vw;
+    overflow: auto;
+  }
+  .table{
+  display: inline-block;
+  width:600px;
+  height: 600px;
+  overflow-y: scroll;
+  }
+
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100px;
+    background: #4e5d6c;
+  }
+
+  /* The code styles the text at the bottom of the footer */
+  .footer > .bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background: #1b3146;
+  }
+
+  .paragraphcontainer {
+   padding-top: 4.5vw;
+   padding-left: 9vw;
+  }
+
+ 
+  .navbar {
+    padding: 0px;
+    margin: 0;
+  }
+
+  /* This CSS styles the ufo icon in the navbar */
+  .nav-ufo {
+    position: absolute;
+    bottom: 5px;
+    left: 150px;
+    width: 35px;
+    color: white;
+  }
+
+  /* Adding styles to the aside and filter form */
+  .ufo-form {
+    margin-top: 50px;
+  }
+
+  .filters .panel-body {
+    padding: 0;
+  }
+
+
+.foodTypeRow{
+    padding:0 20vw;
+}
+
+  .FoodTypeSelect{
+  width: 50%;
+  color: black;
+  background: white;
+  padding: 1vw 0.3vw;
+
+
+}
+
+  .loader {
+    margin-top: 50px;
+  }
+
+  .margin-top-50 {
+    margin-top: 50px;
+  }
+
+  .paragraph {
+  margin-left: 80px;
+ }
+
+  .hero {
+  color:white;
+    position: relative;
+    height:530px;
+    padding: 20px;
+    margin: 0;
+    background: black;
+    background-image: url("../images/nasa.jpg");
+    background-size:100%;
+    background-position: bottom center;
+    background-size: cover;
+  }
+
+  .hero h1 {
+    margin-top: 5vw;
+    font-size: 0.1rem;
+    animation: title 1.2s forwards linear;
+  }
+
+  .hero p {
+    font-size: 3rem;
+    opacity: 0;
+    animation: subtitle 1.2s forwards linear;
+    animation-delay: 1.2s;
+    margin-bottom: 4vw;
+  }
+  .hero .findRestaurant{
+    background-color: rgb(255, 145, 0);
+    text-decoration:none;
+color:white;
+    padding:0.1vw 1vw;
+    margin: 0.5vw;
+    font-size:x-large;
+  }
+  
+
+  /* input placeholder color changes */
+  .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #8e979f;
+  }
+
+  .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #8e979f;
+  }
+
+  .form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #8e979f;
+  }
+
+  .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #8e979f;
+  }
+
+
+  
+  @keyframes title {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      font-size: 7.5rem;
+      opacity: 1;
+    }
+  }
+
+  @keyframes smaller-title {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      font-size: 5.5rem;
+      opacity: 1;
+    }
+  }
+
+  @keyframes subtitle {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+  */
+  #map-id {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .legend {
+    padding: 10px;
+    font-family: Sanchez, serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #555;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .legend .most_expensive {
+    color: #ec8a2e;
+  }
+
+  .legend .popular {
+    color: #a0353a;
+  }
+
+  .legend .highest_rating {
+    color: #f4ba48;
+  }
+
+  .legend .favorite {
+    color: #1b904f;
+  }
+
+
