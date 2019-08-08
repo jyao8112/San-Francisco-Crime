@@ -16,7 +16,7 @@ Analysis of San Francisco Crime data from 2003-2018 (over 2M record) and Data an
 # Machine Learning input feature
 ![viewart](https://github.com/jyao8112/San-Francisco-Crime/blob/master/figures/Screen%20Shot%202019-08-08%20at%2012.57.51%20AM.png?raw=true)
 # Machine Learning Model
-Random Forest
-n_estimators=200,max_depth= 80, min_samples_leaf=5
-      Training Score:0.6312836169120986 
-      Test Score: 0.4023926179253641
+##Random Forest
+#n_estimators=200,max_depth= 80, min_samples_leaf=5
+#Training Score:0.6312836169120986 
+#Test Score: 0.4023926179253641
