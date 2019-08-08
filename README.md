@@ -25,5 +25,5 @@ Analysis of San Francisco Crime data from 2003-2018 (over 2M record) and Data an
 ## KNN
 ![viewart](https://github.com/jyao8112/San-Francisco-Crime/blob/master/figures/Screen%20Shot%202019-08-08%20at%201.10.07%20AM.png?raw=true)
 ### k=27 Test Acc: 0.306
-# UI
+# Application Interface
 ![viewart](https://github.com/jyao8112/San-Francisco-Crime/blob/master/figures/Screen%20Shot%202019-08-08%20at%201.20.47%20AM.png?raw=true)
